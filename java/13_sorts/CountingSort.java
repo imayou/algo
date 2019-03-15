@@ -44,7 +44,7 @@ public class CountingSort {
       c[a[i]]--;
     }
 
-    // 将结果拷贝会a数组
+    // 将结果拷贝回a数组
     for (int i = 0; i < n; ++i) {
       a[i] = r[i];
     }
